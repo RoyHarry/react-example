@@ -5,6 +5,7 @@ import { AdminLayout, ClienteLayout } from '../layouts/';
 import { useAuth } from "../hooks";
 
 //const user = { email : "rcolorado02@gmail.com"};
+
 export function AdminRouter(){
     console.log(useAuth());
     const { user } = useAuth();
